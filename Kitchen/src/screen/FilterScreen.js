@@ -11,7 +11,9 @@ export const Filter = () => {
             <RowContainer>
                 
                 <Text>By Brand</Text>
-                <Icon name="angle-right" size={25} color="black" style={{alignItems:"flex-end"}}/>
+                <View style={{alignItems:"flex-end",flex:1}}>
+                    <Icon name="angle-right" size={20} style={{padding:10}}/>
+                </View>
             </RowContainer>    
         </Container>
     )
